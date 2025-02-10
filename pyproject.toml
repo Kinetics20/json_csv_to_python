@@ -1,0 +1,16 @@
+[project]
+name = "table-encoders"
+version = "0.1.0"
+description = "Mini project in python allows to encode json and csv tables into python code."
+authors = ["Piotr Lipinski <kinetics20@gmail.com>"]
+license = "Beerware"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "pytest>=8.3.4",
+    "ruff>=0.9.6",
+]
