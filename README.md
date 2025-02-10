@@ -40,8 +40,7 @@ python table_encoders.py
 ```
 
 This will print the available decoders (['json', 'csv']),
-load and print the content of table.json in dictionary format,
-i.e. for the table.json :
+load and print the content of table.json in dictionary format:
 ~~~python
 ['json', 'csv']
 {'temperature': [2, 8, 12], 'time': [7, 10, 15]}
